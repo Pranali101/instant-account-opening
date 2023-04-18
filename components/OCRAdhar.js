@@ -286,11 +286,18 @@ export const OCRAdhar = () => {
         <InputLabel required>Aadhaar Number</InputLabel>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <TextField
+            disabled
             type="number"
             name="UID"
             value={formData.UID}
             className="form-style"
             onChange={handleFormChange}
+            sx={{
+              "& .MuiInputBase-input.Mui-disabled": {
+                WebkitTextFillColor: "#000000",
+                cursor: "not-allowed",
+              },
+            }}
           />
           <TextField
             sx={{ ml: "20px", background: "#2A3A8D20" }}

@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCCkK1ShIuGMnCbCarv1RY6jo5OUNRwMzI",
-  authDomain: "ocr-college-project.firebaseapp.com",
-  projectId: "ocr-college-project",
-  storageBucket: "ocr-college-project.appspot.com",
-  messagingSenderId: "903237377827",
-  appId: "1:903237377827:web:a26a1ea5fd6de7c0e3f696",
+  apiKey: "AIzaSyCcBVEQIYzmRNxnmbquTpLBgheZFIJGkSM",
+  authDomain: "instant-account-opening.firebaseapp.com",
+  projectId: "instant-account-opening",
+  storageBucket: "instant-account-opening.appspot.com",
+  messagingSenderId: "791083435177",
+  appId: "1:791083435177:web:9444bff74334fc40d5d5b8",
 };
 
 const app = initializeApp(firebaseConfig);
